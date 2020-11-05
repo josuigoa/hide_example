@@ -1,0 +1,72 @@
+{
+	"width": 100,
+	"height": 100,
+	"gridSize": 1,
+	"type": "level3d",
+	"children": [
+		{
+			"x": -17.643386111955714,
+			"y": -4.192067183923848,
+			"scaleX": 2.99,
+			"scaleY": 3.33,
+			"color": 12462377,
+			"type": "colorBox",
+			"name": "red"
+		},
+		{
+			"x": -17.7,
+			"y": -5.7,
+			"z": 2.43,
+			"scaleX": 2.54,
+			"scaleY": 0.87,
+			"scaleZ": 3.33,
+			"color": 3980317,
+			"type": "colorBox",
+			"name": "green"
+		},
+		{
+			"x": -28,
+			"y": -3.97,
+			"z": 1.75,
+			"fovY": 45,
+			"zFar": 200,
+			"zNear": 0.02,
+			"showFrustum": true,
+			"type": "camera",
+			"name": "side"
+		},
+		{
+			"x": -18.15,
+			"y": 4.86,
+			"z": 1.24,
+			"rotationZ": -90,
+			"fovY": 45,
+			"zFar": 200,
+			"zNear": 0.02,
+			"showFrustum": true,
+			"type": "camera",
+			"name": "front"
+		},
+		{
+			"x": -13.09,
+			"y": -1.7,
+			"z": 5.92,
+			"kind": "Point",
+			"color": 16777215,
+			"range": 10,
+			"size": 1,
+			"zNear": 0.02,
+			"power": 1,
+			"isMainLight": false,
+			"angle": 90,
+			"fallOff": 80,
+			"cookiePath": null,
+			"occlusionFactor": 0,
+			"maxDist": -1,
+			"minDist": -1,
+			"autoShrink": true,
+			"type": "light",
+			"name": "light_0"
+		}
+	]
+}

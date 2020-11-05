@@ -1,0 +1,13 @@
+-cp src
+-lib heaps
+-lib hlsdl
+-lib hide
+
+# include hide defined prefabs (Camera, Light, Bitmap...)
+--macro include("hrt")
+# include our custom prefab
+--macro include("prefab")
+
+-hl hello.hl
+-main Main
+-debug

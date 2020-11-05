@@ -1,0 +1,8 @@
+-cp src
+-lib hide
+-lib hxnodejs
+-D editor
+--macro hide.Plugin.init()
+-js hide-plugin.js
+-debug
+HideImports
