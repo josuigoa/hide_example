@@ -2,7 +2,7 @@ package prefab;
 
 import hrt.prefab.Context;
 
-class ColorBox extends hrt.prefab.Box {
+class ColorBox extends hrt.prefab.l3d.Box {
 	
 	var color:Int;
 	
